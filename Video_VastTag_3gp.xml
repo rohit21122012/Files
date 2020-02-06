@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+   <Ad id="d2817d4f">
+      <InLine>
+         <AdSystem><![CDATA[KMTester 3gpVid]]></AdSystem>
+         <AdTitle><![CDATA[3gpVid Ad]]></AdTitle>
+         <Description><![CDATA[3gpVid VAST]]></Description>
+         <Error><![CDATA[https://kmv-tags.herokuapp.com/error?adtype=3gpVid]]></Error>
+         <Impression><![CDATA[https://kmv-tags.herokuapp.com/impression?adtype=3gpVid]]></Impression>
+         <Creatives>
+            <Creative sequence="1" id="d2817d4f" AdID="d2817d4f">
+               <Linear>
+                  <Duration>00:00:11</Duration>
+                  <TrackingEvents>
+                     <Tracking event="creativeView"><![CDATA[https://kmv-tags.herokuapp.com/creativeView?adtype=3gpVid]]></Tracking>
+                     <Tracking event="start"><![CDATA[https://kmv-tags.herokuapp.com/start?adtype=3gpVid]]></Tracking>
+                     <Tracking event="start"><![CDATA[https://kmv-tags.herokuapp.com/start?adtype=3gpVid]]></Tracking>
+                     <Tracking event="firstQuartile"><![CDATA[https://kmv-tags.herokuapp.com/firstQuartile?adtype=3gpVid]]></Tracking>
+                     <Tracking event="midpoint"><![CDATA[https://kmv-tags.herokuapp.com/midpoint?adtype=3gpVid]]></Tracking>
+                     <Tracking event="thirdQuartile"><![CDATA[https://kmv-tags.herokuapp.com/thirdQuartile?adtype=3gpVid]]></Tracking>
+                     <Tracking event="complete"><![CDATA[https://kmv-tags.herokuapp.com/complete?adtype=3gpVid]]></Tracking>
+                     <Tracking event="close"><![CDATA[https://kmv-tags.herokuapp.com/close?adtype=3gpVid]]></Tracking>
+                     <Tracking event="mute"><![CDATA[https://kmv-tags.herokuapp.com/mute?adtype=3gpVid]]></Tracking>
+                     <Tracking event="unmute"><![CDATA[https://kmv-tags.herokuapp.com/error?adtype=3gpVid]]></Tracking>
+                     <Tracking event="pause"><![CDATA[https://kmv-tags.herokuapp.com/pause?adtype=3gpVid]]></Tracking>
+                     <Tracking event="rewind"><![CDATA[https://kmv-tags.herokuapp.com/rewind?adtype=3gpVid]]></Tracking>
+                     <Tracking event="resume"><![CDATA[https://kmv-tags.herokuapp.com/resume?adtype=3gpVid]]></Tracking>
+                     <Tracking event="fullscreen"><![CDATA[https://kmv-tags.herokuapp.com/fullscreen?adtype=3gpVid]]></Tracking>
+                     <Tracking event="expand"><![CDATA[https://kmv-tags.herokuapp.com/expand?adtype=3gpVid]]></Tracking>
+                     <Tracking event="collapse"><![CDATA[https://kmv-tags.herokuapp.com/collapse?adtype=3gpVid]]></Tracking>
+                     <Tracking event="acceptInvitation"><![CDATA[https://kmv-tags.herokuapp.com/acceptInvitation?adtype=3gpVid]]></Tracking>
+                  </TrackingEvents>
+                  <VideoClicks>
+                     <ClickThrough><![CDATA[https://www.apple.com]]></ClickThrough>
+                     <ClickTracking><![CDATA[https://kmv-tags.herokuapp.com/click?adtype=3gpVid]]></ClickTracking>
+                  </VideoClicks>
+                  <MediaFiles>
+                     <MediaFile type="video/3gpp" delivery="progressive" bitrate="250" width="320" height="180" scalable="true" maintainAspectRatio="false"><![CDATA[https://cache-ssl.celtra.com/api/blobs/6ff49999b89d03d87571c55bf3ac9bc08667b79a59468e1557d7a458da27daca/Video.3gp?]]></MediaFile>
+                  </MediaFiles>
+               </Linear>
+            </Creative>
+         </Creatives>
+      </InLine>
+   </Ad>
+</VAST>
